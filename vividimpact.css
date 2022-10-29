@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tagline {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}  
+.menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+#peachsquare {
+    width: 300px;
+    height: 200px;
+    background-color: peachpuff;
+    margin-left: 40px;
+}
+.easy {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #dd571c;
+    font-weight: bold;
+    display: flex;
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+}
+.tools {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.listoftools {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    padding: 15px;  
+}
+.mainblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+.ToCimage {
+    display: flex;
+}
+#ToCtextbox {
+    width: 200px;
+    height: 200px;
+}
+.ToCtext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.ToC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 60px 100px 60px;
+}
+.EIDMimage {
+    display: flex;
+}
+#EIDMtextbox {
+    width: 200px;
+    height: 200px;
+}
+.EIDMtext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.EIDM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 60px 100px 60px;
+}
+.LMimage {
+    display: flex;
+}
+#LMtextbox {
+    width: 200px;
+    height: 200px;
+}
+.LMtext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.LM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 60px 100px 60px;
+}
+.PandEimage {
+    display: flex;
+}
+#PandEtextbox {
+    width: 200px;
+    height: 200px;
+}
+.PandEtext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.PandE {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 60px 100px 60px;
+}
+.RRTimage {
+    display: flex;
+}
+#RRTtextbox {
+    width: 200px;
+    height: 200px;
+}
+.RRTtext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.RRT {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 100px 60px 100px 60px;
+}
+@media only screen and (max-width: 480px) {
+    .tagline {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .mainblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px;
+    
+    }
+    .tools {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: left; 
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .ToCimage {
+        display: flex;
+    }
+    #ToCtextbox {
+        width: 200px;
+        height: 200px;
+    }
+    .ToCtext {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .ToC {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        padding: 100px 60px 100px 60px;
+    }
+    .EIDMimage {
+        display: flex;
+    }
+    #EIDMtextbox {
+        width: 200px;
+        height: 200px;
+    }
+    .EIDMtext {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .EIDM {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center; 
+        padding: 100px 60px 100px 60px;
+    }
+    .LMimage {
+        display: flex;
+    }
+    #LMtextbox {
+        width: 200px;
+        height: 200px;
+    }
+    .LMtext {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .LM {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center; 
+        padding: 100px 60px 100px 60px;
+    }
+    .PandEimage {
+        display: flex;
+    }
+    #PandEtextbox {
+        width: 200px;
+        height: 200px;
+    }
+    .PandEtext {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .PandE {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        padding: 100px 60px 100px 60px;
+    }
+    .RRTimage {
+        display: flex;
+    }
+    #RRTtextbox {
+        width: 200px;
+        height: 200px;
+    }
+    .RRTtext {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .RRT {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        padding: 100px 60px 100px 60px;
+    }
+}
